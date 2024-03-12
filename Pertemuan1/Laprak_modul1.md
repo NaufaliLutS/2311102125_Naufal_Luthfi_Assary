@@ -201,10 +201,16 @@ int main()
 #### Output:
 ![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan1/Screenshot%202024-03-12%20222515.png)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Deskripsi :
+Program diatas ialah program yang menggunakan tipe data primitif yang digunakan oleh dua fungsi yaitu perkalian dan pembagian.
+Kesimpulan yang dapat saya ambil ialah bahwa setiap tipe data memiliki fungsi kegunaan dan kebutuhannya masing masing dan tergantung orang yang memilih tipe datanya.
 
 ### 2. [Menjelaskan fungsi dari class dan struct secara detail dan memberikan contoh programnya]
 
+Class lebih banyak digunakan untuk objek yang dimana setiap proses di dalamnya saling berhubungan. Sedangkan struct biasa digunakan untuk struktur data atau objek yang sebenarnya, menyimpan data menggunakan variabel dan membuat fungsi. (Aristo, 2021)
+Adapun perbedaan yang cukup menarik bahwa class dapat melakukan inheritance dengan subclass dimana fungsi pada subclass dapat digunakan untuk class lainnya. Akan tetapi struct tidak bisa dilakukan inheritance.
+
+Contoh Program menggunakan Class
 ```C++
 #include <iostream>
 #include <string.h>
@@ -238,8 +244,10 @@ int main()
 #### Output:
 ![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan1/Screenshot%202024-03-12%20222555.png)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Deskripsi :
+Program diatas ialah program untuk menyimpan data Novel menggunakan Class yang dimana menginputkannya menggunakan strcpy dan dipanggil menggunakan cout.
 
+Contoh Program menggunakan Struct
 ```C++
 #include <stdio.h>
 #include <string.h>
@@ -277,7 +285,8 @@ int main()
 #### Output:
 ![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan1/Screenshot%202024-03-12%20222839.png)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Deskripsi : 
+Program diatas ialah program untuk menyimpan data Novel menggunakan fungsi struct yang dimana menginputkannya menggunakan strcpy dan dipanggil menggunakan printf.
 
 ### 3. [Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan array dengan map!]
 
@@ -309,10 +318,19 @@ int main()
 #### Output:
 ![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan1/Screenshot%202024-03-12%20222922.png)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Deskripsi :
+Program diatas merupakan program menggunakan map untuk menyimpan stok laptop di suatu toko yang dimana string digunakan sebagai key dan int merupakan value dari key tersebut. Dan di program diatas menggunakan perulangan for menampilkan isi map Merk_125. Setiap pasangan kunci-nilai dari map diakses menggunakan variabel pair, di mana pair.first adalah kunci (nama merek laptop) dan pair.second adalah nilai (jumlah stok laptop).
+
+Jadi, perbedaan antara array dan map ialah, map merupakan struktur data yang memetakan key ke value sedangkan Array merupakan struktur data yang terdiri dari kumpulan elemen dengan tipe data yang sama yang di indekskan dari 0 hingga -1 panjang array.
+
 
 ## Kesimpulan
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
+Kesimpulan yang saya dapat ialah tipe data primitif merupakan tipe data dasar yang tersedia di dalam bahasa pemrograman. Tipe data primitif biasanya mencakup angka bulat (seperti integer), angka desimal (seperti float atau double), karakter (seperti char), dan boolean (yang mewakili nilai kebenaran, yaitu true atau false). 
+Lalu ada tipe data koleksi yang merupakan tipe data yang digunakan untuk menyimpan kumpulan nilai atau objek. Tipe data koleksi umum seperti array. Mereka memungkinkan untuk mengelompokkan data dengan cara yang lebih terstruktur dan fleksibel daripada tipe data primitif. Tipe data koleksi biasanya menyediakan berbagai operasi untuk mengakses, menambah, menghapus, dan memodifikasi elemen-elemennya.
+Dan yang terakhir ada map ialah struktur data yang memetakan key ke value. Dikenal juga sebagai dictionary atau associative array, map memungkinkan kita untuk menyimpan pasangan key-value, di mana setiap key unik dan terkait dengan satu nilai tertentu. Map sangat berguna untuk pencarian efisien berdasarkan kunci dan menyediakan mekanisme yang kuat untuk menyimpan dan mengakses data terstruktur dengan cara yang lebih dinamis. 
+Dengan memahami perbedaan dan karakteristik dari masing-masing tipe data ini, saya dapat membuat pilihan yang tepat tentang penggunaan yang sesuai dalam pengembangan program kedepannya.
+
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1] Wika Purbasari, Taufiq Iqbal, dkk. Algoritma Pemrograman. Nagrak, Benteng, Warudoyong, Sukabumi. 2024.
+[2] Muhammad Taufik Dwi Putra, Munawir, dkk.Belajar Pemrograman Lanjut Dengan C++. Bandung, Jawa Barat. 2023.
