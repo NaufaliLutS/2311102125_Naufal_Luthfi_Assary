@@ -331,4 +331,4 @@ Kesimpulan yang saya dapat ialah terdapat tiga jenis tipe data dasar dalam pemro
 ## Referensi
 [1] Wika Purbasari, Taufiq Iqbal, dkk. Algoritma Pemrograman. Nagrak, Benteng, Warudoyong, Sukabumi. 2024.
 
-[2] Muhammad Taufik Dwi Putra, Munawir, dkk.Belajar Pemrograman Lanjut Dengan C++. Bandung, Jawa Barat. 2023.
+[2] Muhammad Taufik Dwi Putra, Munawir, dkk. Belajar Pemrograman Lanjut Dengan C++. Bandung, Jawa Barat. 2023.
