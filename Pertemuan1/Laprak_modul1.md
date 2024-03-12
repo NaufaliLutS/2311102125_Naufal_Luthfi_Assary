@@ -325,10 +325,7 @@ Jadi, perbedaan antara array dan map ialah, map merupakan struktur data yang mem
 
 
 ## Kesimpulan
-Kesimpulan yang saya dapat ialah tipe data primitif merupakan tipe data dasar yang tersedia di dalam bahasa pemrograman. Tipe data primitif biasanya mencakup angka bulat (seperti integer), angka desimal (seperti float atau double), karakter (seperti char), dan boolean (yang mewakili nilai kebenaran, yaitu true atau false). 
-Lalu ada tipe data koleksi yang merupakan tipe data yang digunakan untuk menyimpan kumpulan nilai atau objek. Tipe data koleksi umum seperti array. Mereka memungkinkan untuk mengelompokkan data dengan cara yang lebih terstruktur dan fleksibel daripada tipe data primitif. Tipe data koleksi biasanya menyediakan berbagai operasi untuk mengakses, menambah, menghapus, dan memodifikasi elemen-elemennya.
-Dan yang terakhir ada map ialah struktur data yang memetakan key ke value. Dikenal juga sebagai dictionary atau associative array, map memungkinkan kita untuk menyimpan pasangan key-value, di mana setiap key unik dan terkait dengan satu nilai tertentu. Map sangat berguna untuk pencarian efisien berdasarkan kunci dan menyediakan mekanisme yang kuat untuk menyimpan dan mengakses data terstruktur dengan cara yang lebih dinamis. 
-Dengan memahami perbedaan dan karakteristik dari masing-masing tipe data ini, saya dapat membuat pilihan yang tepat tentang penggunaan yang sesuai dalam pengembangan program kedepannya.
+Kesimpulan yang saya dapat ialah terdapat tiga jenis tipe data dasar dalam pemrograman: tipe data primitif (seperti integer, float, char, dan boolean), tipe data koleksi (seperti array), dan map (atau dictionary). Tipe data primitif digunakan untuk menyimpan nilai tunggal, sementara tipe data koleksi digunakan untuk menyimpan kumpulan nilai dengan cara yang lebih terstruktur dan fleksibel. Map adalah struktur data yang memetakan key ke value, berguna untuk pencarian efisien dan menyimpan data terstruktur. Pemahaman tentang perbedaan dan karakteristik dari masing-masing tipe data ini memungkinkan untuk membuat pilihan yang tepat dalam pengembangan program kedepannya.
 
 
 ## Referensi
