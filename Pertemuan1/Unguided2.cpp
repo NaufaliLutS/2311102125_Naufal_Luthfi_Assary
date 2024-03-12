@@ -14,7 +14,7 @@ int main()
     strcpy(Novel1.Judul_125, "Cinta Pertama");// Untuk memasukkan Judul Novel
     strcpy(Novel1.Penerbit_125, "Naufal");// Untuk memasukkan Penerbit Novel
     Novel1.Tahun_125 = 2023;// Untuk memasukkan Tahun Novel
-    strcpy(Novel1.Judul_125, "Dia Yang Engkau Pilih");
+    strcpy(Novel2.Judul_125, "Dia Yang Engkau Pilih");
     strcpy(Novel2.Penerbit_125, "Naufal");
     Novel2.Tahun_125 = 2024;
 
