@@ -207,7 +207,8 @@ Kesimpulan yang dapat saya ambil ialah bahwa setiap tipe data memiliki fungsi ke
 
 ### 2. [Menjelaskan fungsi dari class dan struct secara detail dan memberikan contoh programnya]
 
-Class lebih banyak digunakan untuk objek yang dimana setiap proses di dalamnya saling berhubungan. Sedangkan struct biasa digunakan untuk struktur data atau objek yang sebenarnya, menyimpan data menggunakan variabel dan membuat fungsi. (Aristo, 2021)
+Class lebih banyak digunakan untuk objek yang dimana setiap proses di dalamnya saling berhubungan. Sedangkan struct biasa digunakan untuk struktur data atau objek yang sebenarnya, menyimpan data menggunakan variabel dan membuat fungsi. (Aristo, 2021).
+
 Adapun perbedaan yang cukup menarik bahwa class dapat melakukan inheritance dengan subclass dimana fungsi pada subclass dapat digunakan untuk class lainnya. Akan tetapi struct tidak bisa dilakukan inheritance.
 
 Contoh Program menggunakan Class
