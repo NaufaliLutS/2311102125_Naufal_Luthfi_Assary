@@ -199,7 +199,7 @@ int main()
 }
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan1/Screenshot%202024-03-12%20222515.png)
+![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan%201-Tipe%20Data/Screenshot%202024-03-12%20222515.png)
 
 Deskripsi :
 Program diatas ialah program yang menggunakan tipe data primitif yang digunakan oleh dua fungsi yaitu perkalian dan pembagian.
@@ -243,7 +243,7 @@ int main()
 }
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan1/Screenshot%202024-03-12%20222555.png)
+![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan%201-Tipe%20Data/Screenshot%202024-03-12%20222555.png)
 
 Deskripsi :
 Program diatas ialah program untuk menyimpan data Novel menggunakan Class yang dimana menginputkannya menggunakan strcpy dan dipanggil menggunakan cout.
@@ -284,7 +284,7 @@ int main()
 }
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan1/Screenshot%202024-03-12%20222839.png)
+![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan%201-Tipe%20Data/Screenshot%202024-03-12%20222839.png)
 
 Deskripsi : 
 Program diatas ialah program untuk menyimpan data Novel menggunakan fungsi struct yang dimana menginputkannya menggunakan strcpy dan dipanggil menggunakan printf.
@@ -317,7 +317,7 @@ int main()
 }
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan1/Screenshot%202024-03-12%20222922.png)
+![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan%201-Tipe%20Data/Screenshot%202024-03-12%20222922.png)
 
 Deskripsi :
 Program diatas merupakan program menggunakan map untuk menyimpan stok laptop di suatu toko yang dimana string digunakan sebagai key dan int merupakan value dari key tersebut. Dan di program diatas menggunakan perulangan for menampilkan isi map Merk_125. Setiap pasangan kunci-nilai dari map diakses menggunakan variabel pair, di mana pair.first adalah kunci (nama merek laptop) dan pair.second adalah nilai (jumlah stok laptop).
