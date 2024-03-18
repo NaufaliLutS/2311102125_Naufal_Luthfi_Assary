@@ -95,7 +95,7 @@ Program diatas ialah program yang mengunakan struct untuk menyimpan data yang be
 
 ## Unguided 
 
-### 1. [Buatlah program untuk menampilkan Output seperti berikut dengan data yang diinputkan oleh user!![Soal](../Naufal-Soal_Unguided1.png)]
+### 1. Buatlah program untuk menampilkan Output seperti berikut dengan data yang diinputkan oleh user!![Soal](../Naufal-Soal_Unguided1.png)
 
 ```C++
 // Laprak 2 - Unguided 1
@@ -181,13 +181,9 @@ Deskripsi :
 
 Program diatas ialah program yang menggunakan Array yang digunakan memasukkan ukuran array, lalu meminta pengguna untuk memasukkan angka-angka sesuai dengan ukuran array yang dimasukkan. Setelah itu, program akan memisahkan angka-angka genap dan ganjil dari array yang dimasukkan oleh pengguna, dan menampilkannya secara terpisah. Program ini menghasilkan output yang mencakup data array yang dimasukkan, angka-angka genap, dan angka-angka ganjil dalam format yang sesuai.
 
-### 2. [Buatlah program Input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!]
+### 2. Buatlah program Input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!
 
-Class lebih banyak digunakan untuk objek yang dimana setiap proses di dalamnya saling berhubungan. Sedangkan struct biasa digunakan untuk struktur data atau objek yang sebenarnya, menyimpan data menggunakan variabel dan membuat fungsi. (Aristo, 2021).
 
-Adapun perbedaan yang cukup menarik bahwa class dapat melakukan inheritance dengan subclass dimana fungsi pada subclass dapat digunakan untuk class lainnya. Akan tetapi struct tidak bisa dilakukan inheritance.
-
-Contoh Program menggunakan Class
 ```C++
 
 ```
@@ -197,17 +193,7 @@ Contoh Program menggunakan Class
 Deskripsi :
 Program diatas ialah program untuk menyimpan data Novel menggunakan Class yang dimana menginputkannya menggunakan strcpy dan dipanggil menggunakan cout.
 
-Contoh Program menggunakan Struct
-```C++
-
-```
-#### Output:
-![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan1/Screenshot%202024-03-12%20222839.png)
-
-Deskripsi : 
-Program diatas ialah program untuk menyimpan data Novel menggunakan fungsi struct yang dimana menginputkannya menggunakan strcpy dan dipanggil menggunakan printf.
-
-### 3. [Buatlah program menu untuk mencari nilai Maksimum, Minimum dan Nilai rata – rata dari suatu array dengan input yang dimasukan oleh user!]
+### 3. Buatlah program menu untuk mencari nilai Maksimum, Minimum dan Nilai rata – rata dari suatu array dengan input yang dimasukan oleh user!
 
 ```C++
 
