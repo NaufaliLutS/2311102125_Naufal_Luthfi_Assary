@@ -95,8 +95,7 @@ Program diatas ialah program yang mengunakan struct untuk menyimpan data yang be
 
 ## Unguided 
 
-### 1. Buatlah program untuk menampilkan Output seperti berikut dengan data yang diinputkan oleh user!![Soal](../Naufal-Soal_Unguided1.png)
-
+### 1. Buatlah program untuk menampilkan Output seperti berikut dengan data yang diinputkan oleh user!![Soal](Naufal-Soal_Unguided1.png)
 ```C++
 // Laprak 2 - Unguided 1
 // Naufal Luthfi Assary - 2311102125
@@ -175,7 +174,7 @@ int main() {
 
 ```
 #### Output:
-![Output](../Naufal-Output_Unguided1.png)
+![Output](Naufal-Output_Unguided1.png)
 
 Deskripsi :
 
