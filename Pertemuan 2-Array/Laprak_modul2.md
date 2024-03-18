@@ -98,14 +98,88 @@ Program diatas ialah program yang mengunakan struct untuk menyimpan data yang be
 ### 1. [Buatlah program untuk menampilkan Output seperti berikut dengan data yang diinputkan oleh user![Soal](<../Soal Unguided1.png>)]
 
 ```C++
+// Laprak 2 - Unguided 1
+// Naufal Luthfi Assary - 2311102125
+// IF-11-D
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int SizeArray_125; // Ukuran Array yang dimasukkan oleh User
+    cout << "-----------------------------------------------------\n";
+    cout << "|--------> Naufal-Program Ganjil dan Genap <--------|\n";
+    cout << "-----------------------------------------------------\n";
+    cout << "Masukkan Ukuran Array : "; 
+    cin >> SizeArray_125;
+
+    int Angka_125[SizeArray_125]; // Deklarasi Array untuk Menyimpan Angka-Angka
+    int Genap_125[SizeArray_125]; // Deklarasi Array untuk Menyimpan Angka Genap
+    int Ganjil_125[SizeArray_125]; // Deklarasi Array untuk Menyimpan Angka Ganjil
+    int Genap = 0; // Jumlah Angka untuk Angka Genap
+    int Ganjil = 0; // Jumlah Angka untuk Angka Ganjil
+
+    cout << "|---------------------------------------------------|\n";
+
+    // Meminta Pengguna untuk Memasukkan Angka-Angka
+    cout << "Masukkan Angka dengan Limit yang Sudah Anda Tentukan\n";
+    cout << "Pisahkan Angka dengan Koma dan Akhiri dengan Titik\n";
+    cout << "Masukkan Angka : ";
+    for (int i = 0; i < SizeArray_125; ++i) {
+        cin >> Angka_125[i];
+        char comma;
+        cin >> comma;
+        if (comma == '\n') // Memeriksa Input yang dipisahkan oleh Koma dan Mengakhiri dengan Titik
+            break;
+    }
+
+    // Memisahkan angka genap dan ganjil
+    for (int i = 0; i < SizeArray_125; ++i) {
+        if (Angka_125[i] % 2 == 0)
+            Genap_125[Genap++] = Angka_125[i]; // Menyimpan Angka Genap
+        else
+            Ganjil_125[Ganjil++] = Angka_125[i]; // Menyimpan Angka Ganjil
+    }
+
+    cout << "-----------------------------------------------------\n";
+    cout << "|-----------------> Hasil Program <-----------------|\n";
+    cout << "-----------------------------------------------------\n";
+
+    // Menampilkan data array yang dimasukkan oleh pengguna
+    cout << "Data Array   : ";
+    for (int i = 0; i < SizeArray_125; ++i) {
+        cout << Angka_125[i];
+        if (i != SizeArray_125 - 1)
+            cout << " ";
+    }
+    cout << endl;
+
+    // Menampilkan angka genap
+    cout << "Nomor Genap  : ";
+    for (int i = 0; i < Genap; ++i) {
+        cout << Genap_125[i];
+        cout << ", ";
+    }
+    cout << endl;
+
+    // Menampilkan angka ganjil
+    cout << "Nomor Ganjil : ";
+    for (int i = 0; i < Ganjil; ++i) {
+        cout << Ganjil_125[i];
+        cout << ", ";
+    }
+    cout << endl;
+
+    return 0;
+}
 
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan1/Screenshot%202024-03-12%20222515.png)
+![240302_00h00m06s_screenshot](![Unguided1](<Screenshot 2024-03-19 020634.png>))
 
 Deskripsi :
-Program diatas ialah program yang menggunakan tipe data primitif yang digunakan oleh dua fungsi yaitu perkalian dan pembagian.
-Kesimpulan yang dapat saya ambil ialah bahwa setiap tipe data memiliki fungsi kegunaan dan kebutuhannya masing masing dan tergantung orang yang memilih tipe datanya.
+
+Program diatas ialah program yang menggunakan Array yang digunakan memasukkan ukuran array, lalu meminta pengguna untuk memasukkan angka-angka sesuai dengan ukuran array yang dimasukkan. Setelah itu, program akan memisahkan angka-angka genap dan ganjil dari array yang dimasukkan oleh pengguna, dan menampilkannya secara terpisah. Program ini menghasilkan output yang mencakup data array yang dimasukkan, angka-angka genap, dan angka-angka ganjil dalam format yang sesuai.
 
 ### 2. [Buatlah program Input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!]
 
