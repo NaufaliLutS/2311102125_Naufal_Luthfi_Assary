@@ -175,7 +175,7 @@ int main() {
 
 ```
 #### Output:
-![240302_00h00m06s_screenshot](![Unguided1](<Screenshot 2024-03-19 020634.png>))
+![240302_00h00m06s_screenshot](![Unguided1](<Naufal-Output Unguided1.png>))
 
 Deskripsi :
 
