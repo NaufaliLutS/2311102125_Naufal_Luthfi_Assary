@@ -286,7 +286,7 @@ int main() {
     cout << "|----------> Input Array <---------|" << endl;
     cout << "Masukkan " << Jml_Arr_125 << " Elemen Array " << endl;
     for (int i = 0; i < Jml_Arr_125; i++) {
-        cout << "Masukkan indeks ke - " << i + 1 << ": ";
+        cout << "Masukkan indeks ke - " << i << ": ";
         cin >> Daftar_Arr_125[i];
     }
 
