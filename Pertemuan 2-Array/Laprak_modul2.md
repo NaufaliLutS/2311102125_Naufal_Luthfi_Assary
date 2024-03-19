@@ -59,7 +59,7 @@ int main()
 }
 
 ```
-Program diatas merupakan program yang menggunakan tipe data primitive yang berisi 4 jenis aritmatika dasar yaitu penjumlahan, pengurangan, perkalian, pembagian.
+Program di atas adalah program untuk membuat array tiga dimensi dengan ukuran yang telah ditentukan (2x3x3) dan memungkinkan pengguna untuk memasukkan elemen-elemen array. Setelah pengguna memasukkan elemen, program menampilkan data array dalam format yang terstruktur dan juga dalam format yang lebih sederhana.
 
 ### 2. Program Mencari Nilai Maksimal pada Array
 
