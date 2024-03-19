@@ -4,7 +4,16 @@
 
 ## Dasar Teori
 
-Tipe data merupakan klasifikasi data berdasarkan tipe datanya. Tipe data diperlukan agar kompiler mengetahui cara menggunakan data. Tipe data yang diperiksa adalah tipe data primitif, tipe data abstrak, dan tipe data koleksi. Map adalah wadah asosiatif yang menyimpan elemen terkait. Setiap elemen memiliki key dan value terkait.
+Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan tipe data yang sama secara berurutan. Setiap data dalam array memiliki indeks, sehingga mudah diakses dan dimanipulasi.
+
+1.  Array Satu Dimensi
+Array satu dimensi adalah array dasar yang terdiri dari satu baris elemen. Setiap elemen memiliki indeks yang berurutan, dimulai dari 0 hingga (panjang array - 1). Array satu dimensi sering digunakan untuk menyimpan data yang sederhana dan linier. Contohnya adalah array yang menyimpan daftar nilai mahasiswa, daftar harga barang, atau deret bilangan.
+
+2.  Array Dua Dimensi
+Array dua dimensi, juga dikenal sebagai matriks, adalah perluasan dari array satu dimensi yang terdiri dari baris dan kolom. Setiap elemen dalam array dua dimensi memiliki dua indeks, yaitu indeks baris dan indeks kolom. Array dua dimensi sering digunakan untuk menyimpan data yang berstruktur seperti tabel atau matriks. Contohnya adalah array yang menyimpan nilai ujian beberapa siswa untuk beberapa mata pelajaran, atau array yang menyimpan data piksel dalam gambar.
+
+3.  Array Multidimensi
+Array multidimensi adalah array dengan lebih dari dua dimensi atau lebih. Array ini memiliki banyak dimensi sehingga elemen-elemennya dapat diakses menggunakan lebih dari dua indeks atau key. Array multidimensi digunakan untuk menyimpan data yang lebih kompleks, seperti data spasial, data temporal, atau data yang memiliki struktur hierarkis. Contohnya adalah array tiga dimensi yang menyimpan data warna RGB untuk beberapa objek dengan beberapa bagian dan beberapa warna, atau array yang menyimpan data sensor dalam waktu untuk beberapa lokasi.
 
 ## Guided 
 
@@ -91,7 +100,7 @@ int main()
 }
 
 ```
-Program diatas ialah program yang mengunakan struct untuk menyimpan data yang berlainan tipe data serta menampilkannya, yang dimana char name untuk nama, char addres untuk alamat, dan int age untuk usia.
+Program di atas meminta pengguna untuk memasukkan panjang array, kemudian mengisi array dengan angka-angka yang dimasukkan oleh pengguna. Setelah array terisi, program mencari nilai maksimum di dalam array dan menampilkan nilai maksimum beserta indeksnya.
 
 ## Unguided 
 
@@ -353,10 +362,10 @@ Program di atas adalah program sederhana yang memungkinkan pengguna untuk memasu
 
 
 ## Kesimpulan
-Kesimpulan yang saya dapat ialah terdapat tiga jenis tipe data dasar dalam pemrograman: tipe data primitif (seperti integer, float, char, dan boolean), tipe data koleksi (seperti array), dan map (atau dictionary). Tipe data primitif digunakan untuk menyimpan nilai tunggal, sementara tipe data koleksi digunakan untuk menyimpan kumpulan nilai dengan cara yang lebih terstruktur dan fleksibel. Map adalah struktur data yang memetakan key ke value, berguna untuk pencarian efisien dan menyimpan data terstruktur. Pemahaman tentang perbedaan dan karakteristik dari masing-masing tipe data ini memungkinkan untuk membuat pilihan yang tepat dalam pengembangan program kedepannya.
+Array merupakan struktur data yang digunakan untuk menyimpan sekumpulan data dengan tipe data yang sama secara berurutan. Terdapat tiga jenis array yang umum digunakan: array satu dimensi, array dua dimensi (matriks), dan array multidimensi. Array satu dimensi digunakan untuk menyimpan data linier seperti daftar nilai atau harga barang. Array dua dimensi digunakan untuk data yang berstruktur seperti tabel atau matriks, misalnya untuk menyimpan nilai ujian siswa. Sedangkan array multidimensi digunakan untuk data yang lebih kompleks seperti data spasial atau temporal, misalnya menyimpan data warna RGB untuk objek dengan beberapa bagian dan beberapa warna. Dengan array, data dapat diakses dan dimanipulasi dengan mudah melalui indeks yang sesuai.
 
 
 ## Referensi
-[1] Wika Purbasari, Taufiq Iqbal, dkk. Algoritma Pemrograman. Nagrak, Benteng, Warudoyong, Sukabumi. 2024.
+[1] Meidyan Permata Putri, Guntoro Barovih, Rezania Agramanisti Azdy, dkk. Algoritma Dan Struktur Data. Bandung, Jawa Barat. 2022.
 
-[2] Muhammad Taufik Dwi Putra, Munawir, dkk. Belajar Pemrograman Lanjut Dengan C++. Bandung, Jawa Barat. 2023.
+[2] Wanra Tarigan. Algoritma Pemrograman Dan Struktur Data. Purbalingga, Jawa Tengah. 2022.
