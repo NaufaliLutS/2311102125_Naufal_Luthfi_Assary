@@ -1,4 +1,4 @@
-// Laprak 2 - Unguided 1
+// Laprak 2 - Unguided 2
 // Naufal Luthfi Assary - 2311102125
 // IF-11-D
 #include <iostream>

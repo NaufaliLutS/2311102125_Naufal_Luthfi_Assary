@@ -184,7 +184,7 @@ Program diatas ialah program yang menggunakan Array yang digunakan memasukkan uk
 
 
 ```C++
-// Laprak 2 - Unguided 1
+// Laprak 2 - Unguided 2
 // Naufal Luthfi Assary - 2311102125
 // IF-11-D
 #include <iostream>
@@ -248,20 +248,108 @@ int main() {
 ![Output](Naufal-Output_Unguided2_2.png)
 
 Deskripsi :
-Program diatas ialah program untuk menyimpan data Novel menggunakan Class yang dimana menginputkannya menggunakan strcpy dan dipanggil menggunakan cout.
+
+Program di atas adalah program yang memungkinkan pengguna untuk membuat array tiga dimensi dengan ukuran yang ditentukan oleh pengguna. Pengguna diminta untuk memasukkan ukuran setiap dimensi dan elemen-elemen array. Setelah itu, program menampilkan sebagian data array dan seluruh data array tiga dimensi yang dimasukkan oleh pengguna.
 
 ### 3. Buatlah program menu untuk mencari nilai Maksimum, Minimum dan Nilai rata – rata dari suatu array dengan input yang dimasukan oleh user!
 
 ```C++
+// Laprak 2 - Unguided 3
+// Naufal Luthfi Assary - 2311102125
+// IF-11-D
+#include <iostream> 
+
+using namespace std; 
+
+int main() {
+    int Jml_Arr_125; // Deklarasi variabel untuk menyimpan jumlah elemen dalam array.
+    cout << "------------------------------------\n";
+    cout << "|-----> Naufal-Program Array <-----|\n"; 
+    cout << "------------------------------------\n";
+    cout << "Masukkan jumlah elemen dalam array: ";
+    cin >> Jml_Arr_125; // Meminta pengguna untuk memasukkan jumlah elemen dalam array.
+
+    int *Daftar_Arr_125 = new int[Jml_Arr_125]; // Mengalokasikan memori dinamis untuk array dengan ukuran yang dimasukkan oleh pengguna.
+    int i, NilaiMin_125, NilaiMax_125; // Deklarasi variabel untuk perulangan dan menyimpan nilai minimum dan maksimum.
+    float Rata_125; // Deklarasi variabel untuk menyimpan nilai rata-rata.
+
+    // Meminta pengguna untuk memasukkan elemen-elemen array.
+    cout << "|----------> Input Array <---------|" << endl;
+    cout << "Masukkan " << Jml_Arr_125 << " Elemen Array " << endl;
+    for (int i = 0; i < Jml_Arr_125; i++) {
+        cout << "Masukkan indeks ke - " << i + 1 << ": ";
+        cin >> Daftar_Arr_125[i];
+    }
+
+    while (true) { // Looping menu utama program.
+        cout << "------------------------------" << endl;
+        cout << "|            Menu            |" << endl; // Menampilkan menu pilihan.
+        cout << "------------------------------" << endl;
+        cout << "1. Tampil Array" << endl;
+        cout << "2. Cari Nilai Maksimum" << endl;
+        cout << "3. Cari Nilai Minimum" << endl;
+        cout << "4. Hitung Rata-rata" << endl;
+        cout << "5. Keluar" << endl;
+        int pil_125;
+        cout << "Masukkan Pilihan : ";
+        cin >> pil_125; // Meminta pengguna memilih opsi.
+
+        switch (pil_125) { // Memilih opsi berdasarkan pilihan pengguna.
+            case 1:
+                cout << "Tampil Array" << endl;
+                cout << "Array yang Sudah Anda Simpan adalah : " << endl;
+                for (i = 0; i < Jml_Arr_125; i++) {
+                    cout << Daftar_Arr_125[i] << endl; // Menampilkan elemen-elemen array.
+                }
+                break;
+            case 2:
+                cout << "Nilai Maksimum" << endl;
+                NilaiMax_125 = 0;
+                for (i = 0; i < Jml_Arr_125; i++) {
+                    if (Daftar_Arr_125[i] > NilaiMax_125) {
+                        NilaiMax_125 = Daftar_Arr_125[i]; // Mencari nilai maksimum dalam array.
+                    }
+                }
+                cout << "Nilai Maksimumnya adalah " << NilaiMax_125 << endl; // Menampilkan nilai maksimum.
+                break;
+            case 3:
+                cout << "Nilai Minimum" << endl;
+                NilaiMin_125 = Daftar_Arr_125[0];
+                for (i = 0; i < Jml_Arr_125; i++) {
+                    if (Daftar_Arr_125[i] < NilaiMin_125) {
+                        NilaiMin_125 = Daftar_Arr_125[i]; // Mencari nilai minimum dalam array.
+                    }
+                }
+                cout << "Nilai Minimumnya adalah = " << NilaiMin_125 << endl; // Menampilkan nilai minimum.
+                break;
+            case 4:
+                cout << "Nilai Rata-Rata" << endl;
+                Rata_125 = 0;
+                for (i = 0; i < Jml_Arr_125; i++) {
+                    Rata_125 += Daftar_Arr_125[i]; // Menghitung total nilai dalam array.
+                }
+                cout << "Nilai Rata-Ratanya adalah = " << Rata_125 / Jml_Arr_125 << endl; // Menampilkan nilai rata-rata.
+                break;
+            case 5:
+                cout << "Anda telah Keluar dari Program, Terimakasih:3" << endl;
+                return false; // Mengakhiri program.
+            default:
+                cout << "Pilihan tidak valid" << endl; // Menampilkan pesan jika pilihan tidak valid.
+                break;
+        }
+    }
+
+    return 0;
+}
 
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/NaufaliLutS/2311102125_Naufal_Luthfi_Assary/blob/main/Pertemuan1/Screenshot%202024-03-12%20222922.png)
+![Output](Naufal-Output_Unguided3_1.png)
+![Output](Naufal-Output_Unguided3_2.png)
 
 Deskripsi :
-Program diatas merupakan program menggunakan map untuk menyimpan stok laptop di suatu toko yang dimana string digunakan sebagai key dan int merupakan value dari key tersebut. Dan di program diatas menggunakan perulangan for menampilkan isi map Merk_125. Setiap pasangan kunci-nilai dari map diakses menggunakan variabel pair, di mana pair.first adalah kunci (nama merek laptop) dan pair.second adalah nilai (jumlah stok laptop).
 
-Jadi, perbedaan antara array dan map ialah, map merupakan struktur data yang memetakan key ke value sedangkan Array merupakan struktur data yang terdiri dari kumpulan elemen dengan tipe data yang sama yang di indekskan dari 0 hingga -1 panjang array.
+Program di atas adalah program sederhana yang memungkinkan pengguna untuk memasukkan elemen-elemen ke dalam array, dan kemudian melakukan operasi seperti menampilkan array, mencari nilai maksimum, mencari nilai minimum, menghitung nilai rata-rata, dan keluar dari program. Program ini menggunakan konsep alokasi memori dinamis untuk menangani array dengan ukuran yang ditentukan oleh pengguna.
 
 
 ## Kesimpulan
