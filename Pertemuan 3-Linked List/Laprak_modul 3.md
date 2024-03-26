@@ -478,13 +478,7 @@ Program di atas adalah implementasi dari sebuah Doubly Linked List. Program ini 
 
 ## Unguided 
 
-### 1.  Buatlah program menu Single Linked List Non-Circular untuk menyimpan Nama dan Usia mahasiswa, dengan menggunakan inputan dari user. Lakukan operasi berikut:
-ㅤa. Masukkan data sesuai urutan berikut. (Gunakan insert depan, belakang atau tengah). Data pertama yang dimasukkan adalah nama dan usia anda.
-ㅤb. Hapus data Akechi
-ㅤc. Tambahkan data berikut diantara John dan Jane: "Futaba 18"
-ㅤd. Tambahkan data berikut di awal: "Igor 20"
-ㅤe. Ubah data Michael menjadi: "Reyn 18"
-ㅤf. Tampilkan seluruh data
+### 1.  Buatlah program menu Single Linked List Non-Circular untuk menyimpan Nama dan Usia mahasiswa, dengan menggunakan inputan dari user. Lakukan operasi berikut: a. Masukkan data sesuai urutan berikut. (Gunakan insert depan, belakang atau tengah). Data pertama yang dimasukkan adalah nama dan usia anda.ㅤb. Hapus data Akechiㅤc. Tambahkan data berikut diantara John dan Jane: "Futaba 18"ㅤd. Tambahkan data berikut di awal: "Igor 20"ㅤe. Ubah data Michael menjadi: "Reyn 18"ㅤf. Tampilkan seluruh data
 
 ```C++
 // Laprak 3 - Unguided 1
@@ -832,13 +826,7 @@ Deskripsi :
 
 Program diatas ialah program yang menggunakan linked list dalam. Program ini memiliki struktur data `node` yang menyimpan informasi tentang nama dan umur seseorang, serta pointer `next` untuk menunjukkan ke node selanjutnya dalam list. Terdapat fungsi-fungsi untuk menginisialisasi list, menambahkan node di depan, di belakang, atau di tengah list, menghitung jumlah node, menghapus node di depan, di belakang, atau di tengah list, mengubah data pada node, serta menampilkan seluruh isi list. Program ini juga memiliki menu interaktif yang memungkinkan pengguna untuk melakukan operasi-operasi tersebut.
 
-### 2. Modifikasi Guided Double Linked List dilakukan dengan penambahan operasi untuk menambah data, menghapus, dan update di tengah / di urutan tertentu yang diminta. Selain itu, buatlah agar tampilannya menampilkan Nama Produk dan Harga.
-Case:
-ㅤ1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific
-ㅤ2. Hapus produk Wardah
-ㅤ3. Update produk Hanasui menjadi Cleora dengan harga 55000
-ㅤ4. Tampilkan menu, di mana tampilan akhirnya akan menjadi seperti dibawah ini:
-![Soal](Naufal-Soal_Unguided2.png)
+### 2. Modifikasi Guided Double Linked List dilakukan dengan penambahan operasi untuk menambah data, menghapus, dan update di tengah / di urutan tertentu yang diminta. Selain itu, buatlah agar tampilannya menampilkan Nama Produk dan Harga. Case:ㅤ1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintificㅤ2. Hapus produk Wardahㅤ3. Update produk Hanasui menjadi Cleora dengan harga 55000ㅤ4. Tampilkan menu, di mana tampilan akhirnya akan menjadi seperti dibawah ini:![Soal](Naufal-Soal_Unguided2.png)
 
 ```C++
 // Laprak 3 - Unguided 2
@@ -1064,14 +1052,14 @@ int main(){
 
 ```
 #### Output:
-1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific
-![Output](Naufal-Output_Unguided2_1.png)
-2. Hapus produk Wardah
-![Output](Naufal-Output_Unguided2_2.png)
-3. Update produk Hanasui menjadi Cleora dengan harga 55000
-![Output](Naufal-Output_Unguided2_3.png)
-4. Tampilkan menu, di mana tampilan akhirnya akan menjadi seperti dibawah ini:
-![Output](Naufal-Output_Unguided2_4.png)
+1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific![Output](Naufal-Output_Unguided2_1.png)
+
+2. Hapus produk Wardah![Output](Naufal-Output_Unguided2_2.png)
+
+3. Update produk Hanasui menjadi Cleora dengan harga 55000![Output](Naufal-Output_Unguided2_3.png)
+
+4. Tampilkan menu, di mana tampilan akhirnya akan menjadi seperti dibawah ini:![Output](Naufal-Output_Unguided2_4.png)
+
 
 
 Deskripsi :
