@@ -1,5 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 4</h1>
-# <h1 align="center">Linked List Circular dan Non Circular</h1>
+# <h1 align="center">Laporan Praktikum Modul 4 - Linked List Circular dan Non Circular</h1>
 <p align="center">Naufal Luthfi Assary</p>
 <p align="center">2311102125</p>
 
