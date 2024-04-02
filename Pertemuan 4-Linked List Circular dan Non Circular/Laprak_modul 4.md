@@ -1017,17 +1017,38 @@ int main(){
 
 ```
 #### Output:
-1. Output Tambah Depan![Output](<Naufal_Output Tambah Depan.png>)
-2. Output Tambah Belakang![Output](<Naufal_Output Tambah Belakang.png>)
-3. Output Tambah Tengah![Output](<Naufal_Output Tambah Tengah.png>)
-4. Output Ubah Depan![Output](<Naufal_Output Ubah Depan.png>)
-5. Output Ubah Belakang![Output](<Naufal_Output Ubah Belakang.png>)
-6. Output Ubah Tengah![Output](<Naufal_Output Ubah Tengah.png>)
-7. Output Hapus Depan![Output](<Naufal_Output Hapus Depan.png>)
-8. Output Hapus Belakang![Output](<Naufal_Output Hapus Belakang.png>)
-9. Output Hapus Tengah![Output](<Naufal_Output Hapus Tengah.png>)
-10. Output Hapus List![Output](<Naufal_Output Hapus List.png>)
-11. Output Tampilkan![Output](<Naufal_Output Tampilkan.png>)
+1. Output Tambah Depan
+![Output](<Naufal_Output Tambah Depan.png>)
+
+2. Output Tambah Belakang
+![Output](<Naufal_Output Tambah Belakang.png>)
+
+3. Output Tambah Tengah
+![Output](<Naufal_Output Tambah Tengah.png>)
+
+4. Output Ubah Depan
+![Output](<Naufal_Output Ubah Depan.png>)
+
+5. Output Ubah Belakang
+![Output](<Naufal_Output Ubah Belakang.png>)
+
+6. Output Ubah Tengah
+[Output](<Naufal_Output Ubah Tengah.png>)
+
+7. Output Hapus Depan
+![Output](<Naufal_Output Hapus Depan.png>)
+
+8. Output Hapus Belakang
+![Output](<Naufal_Output Hapus Belakang.png>)
+
+9. Output Hapus Tengah
+![Output](<Naufal_Output Hapus Tengah.png>)
+
+10. Output Hapus List
+![Output](<Naufal_Output Hapus List.png>)
+
+11. Output Tampilkan
+![Output](<Naufal_Output Tampilkan.png>)
 
 ### 2. Setelah membuat menu tersebut, masukkan data sesuai urutan berikut, lalu tampilkan data yang telah dimasukkan. (Gunakan insert depan, belakang atau tengah)
 ![Soal](<Naufal_Soal Unguided2.png>)
