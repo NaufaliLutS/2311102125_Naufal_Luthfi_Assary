@@ -7,15 +7,19 @@
 Linked list adalah struktur data dinamis yang terdiri dari sejumlah simpul yang saling terhubung melalui pointer. Setiap simpul memiliki dua bagian: data dan pointer yang menunjuk ke simpul berikutnya (dan sebelumnya dalam double linked list). Ini memungkinkan penyimpanan data secara dinamis dan mempermudah penambahan serta penghapusan elemen. Elemen pertama disebut head, dan elemen terakhir menunjuk ke NULL.
 
 Single Linked List Non Circular:
+
 Single linked list non-circular adalah jenis linked list di mana setiap simpul hanya memiliki satu pointer, yaitu pointer yang menunjuk ke simpul berikutnya dalam urutan. Elemen terakhir menunjuk ke NULL, menandakan akhir dari linked list. Operasi umum meliputi penambahan dan penghapusan elemen di awal atau akhir, serta pencarian dan pengambilan nilai pada simpul tertentu.
 
 Double Linked List Non Circular:
+
 Double linked list non-circular adalah jenis linked list di mana setiap simpul memiliki dua pointer: satu untuk menunjuk ke simpul berikutnya dan satu untuk menunjuk ke simpul sebelumnya dalam urutan. Ini memungkinkan operasi penambahan dan penghapusan pada simpul dilakukan secara efisien. Pointer pada elemen pertama menunjuk ke NULL, dan pointer pada elemen terakhir menunjuk ke NULL juga.
 
 Single Circular Linked List:
+
 Single circular linked list adalah jenis linked list di mana setiap simpul memiliki pointer yang menunjuk ke simpul berikutnya dalam urutan, dan elemen terakhir menunjuk kembali ke elemen pertama, membentuk lingkaran atau sirkuit. Operasi umum pada single circular linked list sama dengan single linked list non-circular, namun elemen terakhir tidak menunjuk ke NULL, melainkan kembali ke elemen pertama.
 
 Double Circular Linked List:
+
 Double circular linked list adalah jenis linked list di mana setiap simpul memiliki dua pointer: satu untuk menunjuk ke simpul berikutnya dan satu untuk menunjuk ke simpul sebelumnya dalam urutan. Selain itu, elemen terakhir menunjuk kembali ke elemen pertama, membentuk pola sirkular. Ini memungkinkan operasi penambahan dan penghapusan pada simpul dilakukan secara efisien, dan pola sirkular pada pointer memungkinkan untuk traversal yang lancar dalam kedua arah.
 
 ## Guided 
