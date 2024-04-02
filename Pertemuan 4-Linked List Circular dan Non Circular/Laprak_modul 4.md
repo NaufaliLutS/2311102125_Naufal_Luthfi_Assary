@@ -1033,7 +1033,7 @@ int main(){
 ![Output](<Naufal_Output Ubah Belakang.png>)
 
 6. Output Ubah Tengah
-[Output](<Naufal_Output Ubah Tengah.png>)
+![Output](<Naufal_Output Ubah Tengah.png>)
 
 7. Output Hapus Depan
 ![Output](<Naufal_Output Hapus Depan.png>)
