@@ -579,7 +579,11 @@ Selain itu, program ini juga memiliki fungsi `main()` yang merupakan tempat ekse
 
 ## Unguided 
 
-### 1.  Buatlah menu untuk menambahkan, mengubah, menghapus, dan melihat Nama dan NIM mahasiswa, berikut contoh tampilan output dari nomor 1: ![Soal](<Naufal_Soal Unguided1_1.png>) ![Soal](<Naufal_Soal Unguided1_2.png>)
+### 1.  Buatlah menu untuk menambahkan, mengubah, menghapus, dan melihat Nama dan NIM mahasiswa, berikut contoh tampilan output dari nomor 1: 
+
+![Soal](<Naufal_Soal Unguided1_1.png>) 
+
+![Soal](<Naufal_Soal Unguided1_2.png>)
 
 ```C++
 // Laprak 4 - Unguided 1
@@ -1025,34 +1029,76 @@ int main(){
 10. Output Hapus List![Output](<Naufal_Output Hapus List.png>)
 11. Output Tampilkan![Output](<Naufal_Output Tampilkan.png>)
 
-### 2. Setelah membuat menu tersebut, masukkan data sesuai urutan berikut, lalu tampilkan data yang telah dimasukkan. (Gunakan insert depan, belakang atau tengah)![Soal](<Naufal_Soal Unguided2.png>)
+### 2. Setelah membuat menu tersebut, masukkan data sesuai urutan berikut, lalu tampilkan data yang telah dimasukkan. (Gunakan insert depan, belakang atau tengah)
+![Soal](<Naufal_Soal Unguided2.png>)
 
 #### Output:
-1. Output Tambah Nama Jawad![Output](<Naufal_Output Nama Jawad.png>)
-2. Output Tambah Nama Naufal![Output](<Naufal_Output Nama Naufal.png>)
-3. Output Tambah Nama Farrel![Output](<Naufal_Output Nama Farrel.png>)
-4. Output Tambah Nama Denis![Output](<Naufal_Output Nama Denis.png>)
-5. Output Tambah Nama Anis![Output](<Naufal_Output Nama Anis.png>)
-6. Output Tambah Nama Bowo![Output](<Naufal_Output Nama Bowo.png>)
-7. Output Tambah Nama Gahar![Output](<Naufal_Output Nama Gahar.png>)
-8. Output Tambah Nama Udin![Output](<Naufal_Output Nama Udin.png>)
-9. Output Tambah Nama Ucok![Output](<Naufal_Output Nama Ucok.png>)
-10. Output Tambah Nama Budi![Output](<Naufal_Output Nama Budi.png>)
-11. Output Tampilan Seluruh Data![alt text](<Naufal_Output Tampilan Unguided2.png>)
+1. Output Tambah Nama Jawad
+![Output](<Naufal_Output Nama Jawad.png>)
 
-### 3. Lakukan perintah berikut:![Soal](<Naufal_Soal Unguided3.png>)
+2. Output Tambah Nama Naufal
+![Output](<Naufal_Output Nama Naufal.png>)
+
+3. Output Tambah Nama Farrel
+![Output](<Naufal_Output Nama Farrel.png>)
+
+4. Output Tambah Nama Denis
+![Output](<Naufal_Output Nama Denis.png>)
+
+5. Output Tambah Nama Anis
+![Output](<Naufal_Output Nama Anis.png>)
+
+6. Output Tambah Nama Bowo
+![Output](<Naufal_Output Nama Bowo.png>)
+
+7. Output Tambah Nama Gahar
+![Output](<Naufal_Output Nama Gahar.png>)
+
+8. Output Tambah Nama Udin
+![Output](<Naufal_Output Nama Udin.png>)
+
+9. Output Tambah Nama Ucok
+![Output](<Naufal_Output Nama Ucok.png>)
+
+10. Output Tambah Nama Budi
+![Output](<Naufal_Output Nama Budi.png>)
+
+11. Output Tampilan Seluruh Data
+![alt text](<Naufal_Output Tampilan Unguided2.png>)
+
+### 3. Lakukan perintah berikut:
+![Soal](<Naufal_Soal Unguided3.png>)
 
 #### Output:
-1. Tambahkan data berikut diantara Farrel dan Denis: Wati 2330004![Output](<Naufal_Output Tambah Data Wati.png>)
-2. Hapus data Denis![Output](<Naufal_Output Hapus Data Denis.png>)
-3. Tambahkan data berikut di awal: Owi 2330000![Output](<Naufal_Output Tambah Data Owi.png>)
-4. Tambahkan data berikut di akhir: David 23300100![Output](<Naufal_Output Tambah Data David.png>)
-5. Ubah data Udin menjadi data berikut: Idin 23300045![Output](<Naufal_Output Ubah Data Udin.png>)
-6. Ubah data terkahir menjadi berikut: Lucy 23300101![Output](<Naufal_Output Ubah Data Lucy.png>)
-7. Hapus data awal![Output](<Naufal_Output Hapus Data Awal.png>)
-8. Ubah data awal menjadi berikut: Bagas 2330002![Output](<Naufal_Output Ubah Data Awal.png>)
-9. Hapus data akhir![Output](<Naufal_Output Hapus Data Akhir.png>)
-10. Tampilkan seluruh data![Output](<Naufal_Output Tampilkan Seluruh Data.png>)
+1. Tambahkan data berikut diantara Farrel dan Denis: Wati 2330004
+![Output](<Naufal_Output Tambah Data Wati.png>)
+
+2. Hapus data Denis
+![Output](<Naufal_Output Hapus Data Denis.png>)
+
+3. Tambahkan data berikut di awal: Owi 2330000
+![Output](<Naufal_Output Tambah Data Owi.png>)
+
+4. Tambahkan data berikut di akhir: David 23300100
+![Output](<Naufal_Output Tambah Data David.png>)
+
+5. Ubah data Udin menjadi data berikut: Idin 23300045
+![Output](<Naufal_Output Ubah Data Udin.png>)
+
+6. Ubah data terkahir menjadi berikut: Lucy 23300101
+![Output](<Naufal_Output Ubah Data Lucy.png>)
+
+7. Hapus data awal
+![Output](<Naufal_Output Hapus Data Awal.png>)
+
+8. Ubah data awal menjadi berikut: Bagas 2330002
+![Output](<Naufal_Output Ubah Data Awal.png>)
+
+9. Hapus data akhir
+![Output](<Naufal_Output Hapus Data Akhir.png>)
+
+10. Tampilkan seluruh data
+![Output](<Naufal_Output Tampilkan Seluruh Data.png>)
 
 Deskripsi :
 
