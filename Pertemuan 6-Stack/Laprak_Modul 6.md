@@ -242,7 +242,7 @@ int main()
 
 ```
 #### Output:
-![Output] 2311102125_Naufal_Luthfi_Assary/Pertemuan 6-Stack/Naufal-Output1 Unguided.png
+![Output](<Naufal_Output1 Unguided.png>)
 
 Deskripsi :
 
@@ -351,7 +351,7 @@ int main()
 
 ```
 #### Output:
-![Output] 2311102125_Naufal_Luthfi_Assary/Pertemuan 6-Stack/Naufal-Output2 Unguided.png
+![Output](<Naufal_Output2 Unguided.png>)
 
 Deskripsi :
 
