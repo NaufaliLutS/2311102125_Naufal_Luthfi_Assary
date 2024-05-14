@@ -524,4 +524,4 @@ Kesimpulannya, queue adalah struktur data yang berguna dalam mengatur urutan dat
 
 [4] Rafsanjani, Malik Akbar Hashemi. Implementasi Algoritma Pengurutan General Purpose dan Berbasis Komparasi untuk Data Berkategori dalam Waktu Linier Tanpa Paralelisasi,2021.
 
-[4] Asisten Praktikum. Modul 7 Queue. Purwokerto: Institut Teknologi Purwokerto. 2024.
+[5] Asisten Praktikum. Modul 7 Queue. Purwokerto: Institut Teknologi Purwokerto. 2024.
