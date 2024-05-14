@@ -333,7 +333,7 @@ Program tersebut merupakan implementasi sederhana dari sebuah antrian (queue) me
 
 Program ini memiliki fitur sederhana untuk mengelola antrian, seperti menambahkan, menghapus, dan menampilkan data dalam antrian.
 
-### 2.  Buatlah program untuk menentukan apakah kalimat tersebut yang diinputkan dalam program stack adalah palindrom/tidak. Palindrom kalimat yang dibaca dari depan dan belakang sama. Jelaskan bagaimana cara kerja programnya.
+### 2. Dari nomor 1 buatlah konsep antri dengan atribut Nama mahasiswa dan NIM Mahasiswa
 
 ```C++
 // Laprak 7 - Unguided 2
