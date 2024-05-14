@@ -1,3 +1,7 @@
+// Laprak 7 - Guided 1
+// Naufal Luthfi Assary - 2311102125
+// IF-11-D
+
 #include <iostream>
 
 using namespace std;
@@ -45,7 +49,7 @@ void kurangAntrian(){
     if(isEmpty()){
         cout << "Antrian kosong" << endl;
     } else {
-        for (int i =0; i , back; i++){
+        for (int i = 0; i < back; i++){
             queueTeller[i] = queueTeller[i+1];
         }
         back --;
@@ -87,7 +91,7 @@ void viewQueue(){
 int main(){
     tambahData("Alya");
     tambahData("Kiki");
-    tambahData("Rrtika");
+    tambahData("Artika");
     viewQueue();
 
     //mengurangi antrian 
