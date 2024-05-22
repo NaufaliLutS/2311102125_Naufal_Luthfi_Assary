@@ -415,7 +415,7 @@ int main()
 
 Program ini adalah implementasi dari pencarian sekuensial (sequential search) untuk mencari jumlah kemunculan suatu angka dalam sebuah array.
 
-### Fungsi `main`:
+Fungsi `main`:
 - Program ini dimulai dengan mendeklarasikan dan menginisialisasi variabel-variabel yang dibutuhkan, seperti `n125` untuk jumlah elemen dalam array, `data` untuk menyimpan data integer, `cari125` untuk menyimpan angka yang akan dicari, dan `ketemu125` untuk menghitung jumlah kemunculan angka yang dicari.
 - Selanjutnya, program mencetak judul program dan array data yang akan dicari.
 - Kemudian, program meminta pengguna untuk memasukkan angka yang akan dicari.
