@@ -7,17 +7,24 @@
 Algoritma pencarian (searching algorithm) adalah suatu algoritma yang digunakan untuk mencari sebuah rekaman atau elemen tertentu dalam sebuah kumpulan data. Pada dasarnya, algoritma pencarian menerima sebuah kunci atau target sebagai input, kemudian menggunakan langkah-langkah tertentu untuk mencari rekaman yang sesuai dengan kunci tersebut. Proses pencarian tersebut kemudian menghasilkan dua kemungkinan, yaitu berhasil menemukan rekaman yang dicari atau tidak menemukan rekaman tersebut.
 
 Metode Pencarian:
+
 A. `Sequential Search:`
+
 `Deskripsi:` Sequential search adalah proses membandingkan setiap elemen array satu per satu secara berurutan, dimulai dari elemen pertama hingga elemen yang dicari ditemukan atau hingga akhir array.
+
 `Keuntungan:` Sederhana dan dapat digunakan baik pada array yang terurut maupun yang tidak terurut.
+
 `Proses Algoritma:`
 1. Data dibandingkan satu per satu dalam kumpulan data dengan data yang dicari.
 2. Pencarian dilakukan dari elemen pertama hingga elemen terakhir.
 3. Jika data yang dicari ditemukan, proses pencarian berhenti; jika tidak, pencarian dilanjutkan hingga akhir array.
 
 B. `Binary Search:`
+
 `Deskripsi:` Binary search adalah metode pencarian data pada array yang telah terurut. Algoritma ini lebih efisien karena membagi data menjadi dua bagian dan membandingkan dengan elemen tengah.
+
 `Keuntungan:` Efisien untuk data yang telah terurut dengan kompleksitas waktu O(log N).
+
 `Proses Algoritma:`
 1. Data diambil dari posisi pertama hingga posisi terakhir.
 2. Mencari posisi data tengah dengan membagi posisi akhir dengan 2.
