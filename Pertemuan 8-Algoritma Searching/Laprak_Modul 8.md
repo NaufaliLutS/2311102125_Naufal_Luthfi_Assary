@@ -443,7 +443,7 @@ Binary Search: Efisien untuk data yang telah terurut. Pencarian dilakukan dengan
 
 [2] Joseph Teguh Santoso, Struktur Data dan ALgoritma, Semarang: Yayasan Prima Agus Teknik, 2021.
 
-[3] Budiman, A. & Rusdi, A. (2020). Penerapan Algoritma Pencarian Binary Search pada Sistem Basis Data untuk Meningkatkan Kecepatan Pencarian Data. Jurnal Sains dan Teknologi Komputer, 11(2), 123-130.
+[3] Budiman, A. & Rusdi, A. Penerapan Algoritma Pencarian Binary Search pada Sistem Basis Data untuk Meningkatkan Kecepatan Pencarian Data. Jurnal Sains dan Teknologi Komputer, 11(2), 123-130, 2020. 
 
 [4] Kartiko Ardi Widodo, Suryo Adi Wibowo, dan Nurlaily Vendyansyah. Penerapan Sequential Search Untuk Pengelolaan Data Barang, Vol. 15 No. 1 Mei 2021.
 
