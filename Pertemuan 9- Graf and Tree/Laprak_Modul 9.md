@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 8 - Algoritma Searching</h1>
+# <h1 align="center">Laporan Praktikum Modul 9 - Graph Dan Tree</h1>
 <p align="center">Naufal Luthfi Assary</p>
 <p align="center">2311102125</p>
 
